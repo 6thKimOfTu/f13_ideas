@@ -1,0 +1,13 @@
+2. Schwellspannung, Idealsfaktor, Schwellstrom
+3. Built in Potenzial, Mittlere Konzentration, Dotierprofil
+
+Deckblatt (mit Abstrakt)
+Bescheidgabe: KI für die Sprachverbesserung für das bessere Verständnis der Lesern
+Einleitung/ Motivation
+Theorie Formeln reinschreiben
+	Strom-Spannung- Diagramm
+	Schwellspannung
+Keine Formelsammlung
+Ergebnis beinhaltet die Auswertung und Diskussion
+Zusammenfassung (wesentliche, nur von Ergebnissen)
+Keine Messblätter scannen

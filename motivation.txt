@@ -1,0 +1,16 @@
+Motivation
+# 주제의 장점 및 유용성의 소개 - 독자에게 읽어야할 이유를 알려줌
+# LED
+    Geschichte der LED
+    kostengünstig, langlebig und kompakt - insgesamt effizienter als vorherigen Optionen
+    eine ausgewählte Emissionswellenlänge kontinuierlich einstellen möglich
+    nicht nur für die Beleuchtung sondern auch für Technik und Medizin möglich, weil Infrarot und UV-Licht erzeugbar ist
+
+#Halbleitereigenschaften
+    Leitfähigkeit einstellbar
+    intrinsischer Halbleiter und dotierter Halbleiter
+    kann auch als Kondensator benutzt werden
+
+Leuchtdioden (LEDs) werden aktuell in vielen Bereichen wie Technik, Medizin und ganz gewiss für die Beleuchtung angewendet. Die Entdeckung der LED in 1970er hat eine effizienteren Alternative aufgrund ihrer Kostenwirksamkeit, Langlebigkeit und Kompaktheit gegenüber traditionellen Lichtquellen angeboten. Ein wesentlicher Vorteil der LED-Technologie ist die Möglichkeit, eine spezifische Emissionswellenlänge (Infrarot bis UV-Licht) präzise einzustellen, wodurch sie für spezialisierte Anwendungen in Technik und Medizin unerlässlich macht.
+
+Die Eigenschaften von Halbleitern, die Grundlage der LED-Technologie, von immenser wissenschaftlicher und praktischer Bedeutung. Die einstellbare Leitfähigkeit von Halbleitern erlaubt es, ihre elektronischen Eigenschaften zu manipulieren und sie für unterschiedlichste Anwendungen anzupassen. Diese Flexibilität erstreckt sich bis hin zur Nutzung als Kondensatoren, wobei die spezifische Fähigkeit, die Ladung zu speichern und freizugeben, in verschiedenen elektronischen Schaltungen und Systemen genutzt wird.

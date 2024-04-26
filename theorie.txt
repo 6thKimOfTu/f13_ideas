@@ -1,0 +1,16 @@
+
+Halbleitereigenschaften
+    als Kondensator 
+        Raumladungszone
+    Schwellspannung Sperrspannung
+LED
+    Funktionsweise von LED
+
+Diodenkennlinien
+    Skizze
+    Schwellungsspannung
+
+Built-In-Potential
+    Potentialunterschied
+     durch die unterschiedlichen Konzentrationen von Dotierstoffen in den p- und n-Regionen eines Halbleiters, die zu einer Diffusion von Ladungsträgern führt
+
