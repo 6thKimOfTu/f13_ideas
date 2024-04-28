@@ -65,13 +65,21 @@ Die Sperrspannung ist die Spannung, bei der die Diode in der entgegengesetzten R
 
 
 
+%Built-In-Potential
+Das built-in-Potential in einem Halbleiter-p-n-Übergang entsteht durch die Diffusion von Ladungsträgern. Dies führt zu einer Potentialdifferenz, die den weiteren Ladungsträgerfluss ohne externe Spannung verhindert.
+\begin{align}
+ V_\mathrm{bi} = \frac{k_\mathrm{B}T}{e} \ln\left(\frac{N_\mathrm{A} N_\mathrm{D}}{n_i^2}\right)
+\end{align}
 
-%식 적을 때 이런 식으로 적을 것!!
+Hier sind $k_\mathrm{B}$ die Boltzmann-Konstante, $T$ die absolute Temperatur in Kelvin, $e$ die Elementarladung eines Elektrons, $N_\mathrm{A}$ und $N_\mathrm{D}$ sind die Akzeptor- bzw. Donatorkonzentrationen,$n_i$ ist die intrinsische Ladungsträgerkonzentration des Halbleiters.
 
-%Sie lässt sich durch die Shockley-Gleichung, nämlich das Verhältnis zwischen Strom $I(V)$ und Spannung $V$, beschreiben wie folgt,
-%\begin{align}
-%    \label{eq:IV}
-%    I = I_\mathrm{S} \left( e^{\frac{\mathrm{e}V}{nk_\mathrm{B}T}} - 1 \right) \quad \, 
-%\end{align}
-%wobei $I_\mathrm{S}$ der Sättigungsstrom, $n$ der Idealitätsfaktor, $k_\mathrm{B}$ die Boltzmann-Konstante, $T$ die absolute Temperatur und $\mathrm{e}$ die Elementarladung ist 
-%\cite{SkriptF13}.
+
+
+%Raumladungszone 가 Kondensator 역할을 하는 걸 확인하기 전 Kondensatord의 임피던스 및 전체 임피던스가 주파수에 따라 어떻게 변하는지 설명하기
+
+%임피던스 식
+\begin{align}
+    \label{eq:Impedanz}
+    |Z| = \sqrt{\frac{R_\mathrm{s}^2+R_\mathrm{p}^2+2R_\mathrm{s}R_\mathrm{p}+4R_\mathrm{s}^2R_\mathrm{p}^2\pi^2f^2C^2}{4R_\mathrm{p}^2\pi^2f^2C^2+1}} \quad \, .
+\end{align}
+\cite{SkriptF13}
