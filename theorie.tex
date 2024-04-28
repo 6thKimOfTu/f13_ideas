@@ -1,0 +1,77 @@
+\newpage
+
+\section{Theorie}
+
+%Halbleiter - Allgemeine Erklärung
+Halbleiter sind Materialien, deren elektrische Leitfähigkeit zwischen der von Leitern und Nichtleitern liegt. Ihre Leitfähigkeit ist stark temperatur- und dotierungsabhängig. In den niedrigen Temperaturen verhält der Halbleiter wie ein Isolator. Durch die thermische Anrregung, oder Erhöhung des Energieniveaus zur Leitungsband kann der Halbleiter das Verhalten des Leiters zeigen.
+
+%Dotierter Halbleiter
+Durch Dotierung, das Einbringen von Fremdatomen in das Kristallgitter eines Halbleiters, lässt sich die elektrische Leitfähigkeit steuern. Halbleiter können als Kondensatoren eine Rolle spielen, weil in der Sperrrichtung geschalteten p-n-Übergang, die Raumladungszone eine Kapazität bildet. Diese Kapazität hängt von der Breite der Raumladungszone ab, die wiederum von der angelegten Spannung beeinflusst wird.
+
+%Funktionsweise von LEDs
+Eine LED (lichtemittierende Diode) funktioniert durch die Rekombination von Elektronen und Löchern an einem p-n-Übergang. Wenn Elektronen vom n-Bereich in den p-Bereich diffundieren und dort mit Löchern rekombinieren, wird Energie in Form von Licht freigesetzt. Die Farbe des Lichts hängt von der Bandlücke des verwendeten Halbleitermaterials ab.
+
+\subsection{pn-Übergang und Kapazität}
+%Formel Kapazität
+%Raumladungszone, pn Übergang
+Die Raumladungszone entsteht an der Grenze zwischen p- und n-dotierten Bereichen eines Halbleiters und ist charakterisiert durch eine Region, in der keine freien Ladungsträger vorhanden sind. Da Elektronen und Löcher den Bereich überqueren und rekombinieren, hinterlassen sie ionisierte Donator- und Akzeptoratome (positiv geladene Donatoren im n-Bereich und negativ geladene Akzeptoren im p-Bereich). Die Ansammlung der Minoritätsladungsträgerionen an gegenüberliegenden Seiten des Übergangs erzeugt ein elektrisches Feld, das der weiteren Diffusion von Ladungsträgern entgegenwirkt (Driftstrom). 
+
+Mit der Raumladungszone kann der pn-Übergang als ein Plattenkondensator betrachtet werden, und dessen Kapazität definiert sich 
+
+\begin{align}
+    \label{eq:C}
+    C = \frac{\epsilon A}{W}
+\end{align}
+
+mit der Fläche des pn-Übergangs $A$, der Breite der Raumladungszone $W$ und $\epsilon$ ist die Dielektrizitätskonstante des Halbleitermaterials. Die Kapazität ist umgekehrt proportional zur Breite der Raumladungszone. Bei einer Verbreiterung der Raumladungszone durch eine erhöhte Sperrspannung nimmt die Kapazität des Übergangs ab.
+
+Angenommen, dass die Akzeptorseite viel stärker dotiert ist als die Donatorseite ($N_A \gg N_D$), entspricht die Breite der Raumladungszone $W$ nährungsweise 
+\begin{align}
+    \label{eq:W}
+    W = \sqrt{\frac{2 \epsilon  (V_{bi} - V)}{e N_D}}
+\end{align}
+Hier sind $\epsilon$ die Dielektrizitätskonstante des Halbleitermaterials, $e$ die Elementarladung eines Elektrons, $N_A$ und $N_D$ sind die Akzeptor- bzw. Donatorkonzentrationen, und $V_{bi}$ ist das built-in-Potential. Das built-in-Potential in einem Halbleiter-p-n-Übergang entsteht durch die Diffusion von Ladungsträgern. Dies führt zu einer Potentialdifferenz, die den weiteren Ladungsträgerfluss ohne externe Spannung verhindert. Diese Formel zeigt wie die Breite der Raumladungszone sich ändert, wenn sich die Spannung über den pn-Übergang ändert. Die Breite nimmt zu, wenn die Sperrspannung erhöht wird, da dies zu einer weiteren Verarmung der freien Ladungsträger in der Raumladungszone führt.
+
+Mit dieser Annahme lässt sich die Kapazität mit der Abhängigkeit der Spannung $V$ folgt darstellen.
+
+\begin{align}
+    \label{eq:CV}
+    \frac{1}{C^2} \approx \frac{2}{A^2 e \epsilon N_D}(V_{bi} - V)
+\end{align}
+Und durch die Ableitung kann $N_D$ erhalten werden, jedoch bei einer nicht-stufenförmigen oder anders geformten Ladungsträgerverteilung ist mit Differenzenquotient sinnvoller. Die Gleichung für $N_D$ gilt mithilfe der \ref{eq:CV} wie folgt
+\begin{align}
+    \label{eq:ND}
+    N_D(V)= \frac{2}{A^2 e \epsilon (\frac{\partial 1/C^2}{\partial V})}
+\end{align}
+
+
+\subsection{I-V-Kennlinie des pn-Übergangs}
+%Diodenkennlinien 하나 책에서 가져오기
+Die Strom-Spannung-Kennlinie eines Halbleiters, im Kontext von pn-Übergängen wie in Dioden, beschreibt die Beziehung zwischen der angelegten Spannung und dem resultierenden elektrischen Strom durch das Bauelement. Diese Kennlinie ist von zentraler Bedeutung für das Verständnis und die Anwendung halbleiterbasierter Bauelemente.
+Sie lässt sich durch die Shockley-Gleichung, nämlich das Verhältnis zwischen Strom $I(V)$ und Spannung $V$, wie folgt beschreiben,
+\begin{align}
+    \label{eq:IV}
+    I = I_\mathrm{S} \left( e^{\frac{\mathrm{e}V}{nk_\mathrm{B}T}} - 1 \right) \quad \, 
+\end{align}
+wobei $I_\mathrm{S}$ der Sättigungsstrom, $n$ der Idealitätsfaktor, $k_\mathrm{B}$ die Boltzmann-Konstante, $T$ die absolute Temperatur und $\mathrm{e}$ die Elementarladung ist \cite{SkriptF13}.
+
+
+%Strom-Spannung-Kennlinie
+%Schwellenspannung
+Die Schwellenspannung (oder Durchbruchspannung) ist die Spannung, ab der ein signifikanter Anstieg des Stromflusses in einer Diode beginnt. Dies ist ein kritischer Parameter für die Funktion von LEDs, da sie den Beginn des effektiven Elektronenübergangs zwischen den Bändern markiert.
+
+%Sperrspannung
+Die Sperrspannung ist die Spannung, bei der die Diode in der entgegengesetzten Richtung gepolt ist und effektiv den Stromfluss blockiert. Diese Eigenschaft ist wesentlich für Anwendungen, bei denen Dioden als Ventile für elektrischen Strom dienen.
+
+
+
+
+%식 적을 때 이런 식으로 적을 것!!
+
+%Sie lässt sich durch die Shockley-Gleichung, nämlich das Verhältnis zwischen Strom $I(V)$ und Spannung $V$, beschreiben wie folgt,
+%\begin{align}
+%    \label{eq:IV}
+%    I = I_\mathrm{S} \left( e^{\frac{\mathrm{e}V}{nk_\mathrm{B}T}} - 1 \right) \quad \, 
+%\end{align}
+%wobei $I_\mathrm{S}$ der Sättigungsstrom, $n$ der Idealitätsfaktor, $k_\mathrm{B}$ die Boltzmann-Konstante, $T$ die absolute Temperatur und $\mathrm{e}$ die Elementarladung ist 
+%\cite{SkriptF13}.
