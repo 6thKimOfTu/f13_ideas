@@ -78,11 +78,8 @@ Hier sind $k_\mathrm{B}$ die Boltzmann-Konstante, $T$ die absolute Temperatur in
 %Raumladungszone 가 Kondensator 역할을 하는 걸 확인하기 전 Kondensatord의 임피던스 및 전체 임피던스가 주파수에 따라 어떻게 변하는지 설명하기
 
 %임피던스 식
-\begin{align}
-    \label{eq:Impedanz}
-    |Z| = \sqrt{\frac{R_\mathrm{s}^2+R_\mathrm{p}^2+2R_\mathrm{s}R_\mathrm{p}+4R_\mathrm{s}^2R_\mathrm{p}^2\pi^2f^2C^2}{4R_\mathrm{p}^2\pi^2f^2C^2+1}} \quad \, .
-\end{align}
-\cite{SkriptF13}
+\subsection{Impedanz}
+%첨부!!!
 
 In realen Dioden zeigt aufgrund von Unvollkommenheiten und Materialfehlern nicht idealen Verhalten. Der Leckstrom fließt über einen anderen Pfad statt über pn-Übergang zu queren. Noch dazu kann der Stromfluss wegen des inneren Widerstands von Leitungen, Kontakten und der Bauelementart abgelenkt werden. Diese Bedingungen in der Realität können als Parallelwiderstand $R_\mathrm{p}$ und als Serienwiderstand $R_\mathrm{s}$ dargestellt werden.
 Der Betrag der Impedanz einer Schaltung mit dem Ersatzschaltbild \ref{img:imp} lässt sich mit
@@ -94,3 +91,9 @@ Der Betrag der Impedanz einer Schaltung mit dem Ersatzschaltbild \ref{img:imp} l
 
 berechnen, hierbei ist die Abhängigkeit des Impedanzbetrag zu variierender Messfrequenz zu erkennen\cite{SkriptF13}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{image/theorie/imp.png}
+    \caption[Ersatzschaltbild]{Zur Impedanzmessung ist dieser Bau genommen worden. \cite{SkriptF13}}
+    \label{img:imp}
+\end{figure} 
