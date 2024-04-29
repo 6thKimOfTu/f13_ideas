@@ -11,3 +11,9 @@ Keine Formelsammlung
 Ergebnis beinhaltet die Auswertung und Diskussion
 Zusammenfassung (wesentliche, nur von Ergebnissen)
 Keine Messblätter scannen
+
+Permittivität GaN 8.9
+https://www.iue.tuwien.ac.at/phd/vitanov/node53.html
+
+GaAs 13.1
+https://www.iue.tuwien.ac.at/phd/palankovski/node32.html
