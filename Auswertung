@@ -10,25 +10,25 @@ Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderung
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_kom_LED_ND.pdf}
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/WV_kom_LED.pdf}
     \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die kommerzielle LEDs]{Das Diagramm der Breite der Raumladungszone $W$ in Abhängigkeit der Spannung. Die Breite der Raumladungszone $W$ ist mit der Kapazität $C$ berechnet worden. Die Raumladungszone verkleinert sich mit abnehmender Sperrspannung, was typisch für pn-Übergänge ist.}
     \label{img:w_kom}
 \end{figure}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3297_ND.pdf}
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/WV_3297.pdf}
     \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B3297]
     \label{img:w_3297}
 \end{figure}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_2396_ND.pdf}
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/WV_2396.pdf}
     \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B2396]
     \label{img:w_2396}
 \end{figure}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3204_ND.pdf}
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/WV_3204.pdf}
     \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B3204A]
     \label{img:w_3204}
 \end{figure}
@@ -46,14 +46,29 @@ Bei den Proben A und B, die mittlere Flächengrößen aufweisen, sind die Unters
 
 %------------------
 
-Die konstante Verteilung der Donatoren $N_\mathrm{D}$ wird durch die Analyse der mittleren Änderungsrate von $1/C^2(V)$, beschrieben in der Formel \ref{eq:ND}, bestätigt. Die Abweichungen der $\Delta N_\mathrm{D}$-Werte wurden durch eine Fitfunktion $1/C^2(V)= a\cdot V+b$ bestimmt. Mit dieser Parameter $a$ und $b$ lassen die built-in-Potentiale $V_\mathrm{bi}=\frac{-b}{a}$ und Dotierungskonzentration $N_D=\frac{-2}{A^2e\epsilon a}$ berechnen. Da die weiße LED keine Flächeinformation hat, wurde hier nicht weiteruntersucht worden.
-Die rote, orange und grüne LED weisne aufeinanderfolgend größere Werte auf, während die grüne LED anomal hohe Werte zeigt\ref{tab:NVbi}. 
+Die konstante Verteilung der Donatoren $N_\mathrm{D}$ wird durch die Analyse der mittleren Änderungsrate von $1/C^2(V)$, beschrieben in der Formel \ref{eq:ND}, bestätigt. Die Abweichungen der $\Delta N_\mathrm{D}$-Werte wurden durch eine Fitfunktion $1/C^2(V)= a\cdot V+b$ bestimmt. Mit dieser Parameter $a$ und $b$ lassen die built-in-Potentiale $V_\mathrm{bi}=\frac{-b}{a}$ und Dotierungskonzentration $N_D=\frac{-2}{A^2e\epsilon a}$ berechnen. Da die weiße LED keine Flächeinformation hat, wurde ihre Größen hier nicht weiteruntersucht worden. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_kom_LED_ND.pdf}
+    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die kommerzielle LEDs]{Das Diagramm der $1/C^2(V)$-Kurven für vier verschiedene LED-Proben: Rot, Orange, Grün und Weiß. Die lineare Anpassung ermöglicht die Berechnung des eingebauten Potentials und der Dotierungskonzentration. Auffällig ist die signifikant höhere Steigung bei der grünen LED, was auf eine niedrigere Dotierungskonzentration hinweist.}
+    \label{img:CV_kom}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3297_ND.pdf}
+    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die Probe B3297]{Das Diagramm der $1/C^2(V)$-Kurven für vier verschiedene LED-Proben: Rot, Orange, Grün und Weiß. Die lineare Anpassung ermöglicht die Berechnung des eingebauten Potentials und der Dotierungskonzentration. Auffällig ist die signifikant höhere Steigung bei der grünen LED, was auf eine niedrigere Dotierungskonzentration hinweist.}
+    \label{img:CV_3297}
+\end{figure}
+
+In der Abbildung \ref{img:CV_kom} weisen die rote, orange, weiß und grüne LED aufeinanderfolgend größere Werte auf, während die grüne LED anomal hohe Werte zeigt. Die genaue Wert \ref{tab:NVbi} zeigt, dass aus diesem Grund doppelt zu größere built-in-Potential $V_bi$ und viel kleinere Wert der Dotierungskonzentration $N_\mathrm{D}$ zu sehen sind. Die Abbildungen \ref{img:CV_3297},\ref{img:CV_2396},\ref{img:CV_3204} zeigen keine große Abweichung zur linearen Fit.
 
 
 \begin{tabular}{lll}
     \label{tab:NVbi}
     \toprule
-         Probe &        $V_bi$ (V) &                $N$ (m^-3) \\
+         Probe &        $V_bi$ (V) &                $N_\mathrm{D}$ (m^-3) \\
     \midrule
        LED Rot & 2.49 \pm 0.03 & (1119 \pm 18)e+18 \\
     LED Orange & 2.402 \pm 0.019 & (517  \pm 6)e+18 \\
@@ -76,26 +91,17 @@ Die rote, orange und grüne LED weisne aufeinanderfolgend größere Werte auf, w
     \bottomrule
 \end{tabular}
 
-Bei der nicht verkapselten Proben zeigt sich eine hohe Dotierungskonzentration, weit höher als bei den kommerziellen LEDs. Die hohen Dotierungen könnten für Hochleistungsanwendungen oder für Bauelemente mit besonders niedrigen Widerstandswerten benutzt werden, also sie ist  ideal für Anwendungen, die hohen Frequenzen und hohe Stromdichten erfordern.
+Bei der nicht verkapselten Proben zeigt sich eine hohe Dotierungskonzentration\ref{tab:NVbi}, weit höher als bei den kommerziellen LEDs. Die hohen Dotierungen könnten für Hochleistungsanwendungen oder für Bauelemente mit besonders niedrigen Widerstandswerten benutzt werden, also sie ist  ideal für Anwendungen, die hohen Frequenzen und hohe Stromdichten erfordern.
+
+Die Dotierungskonzentrationen $N_\mathrm{diff}$ wurde mithilfe der Differentialquotienten analysiert, um eine präzise Bewertung der lokalen Änderungen zu schaffen. Dies ist sinnvoller, da die Dotierkonzentration in der Realität nicht konstant ist und strukturelle Unregelmäßigkeiten wie Kratzer vorhanden waren. Der Differentialquotient ermöglichte eine genaue Bestimmung der Änderungsrate der Dotierung an jedem Punkt, was für die Analyse von Materialdefekten und die Optimierung der Halbleiterfertigung entscheidend ist.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/NW_kom_LED.pdf}
+    \caption[Abhängigkeit der Dotierungskonzentration mit der Differentialquotienten $N_\mathrm{diff}$ als Funktion der Breite der Raumladungszone $W$ für die kommerzielle LEDs]{Das Diagramm der $N_\mathrm{diff}(W)$ für verschiedene LED-Proben: Rot, Orange und Grün.Die Daten verdeutlichen die inverse Beziehung zwischen $N_\mathrm{diff}$ und $W$, die auf eine zunehmende Dotierungsdichte mit abnehmender Raumladungszone hinweist.}
+    \label{img:NW_kom}
+\end{figure}
 
 
-
-
-%------------------
-In der Abbildungen werden 
-
-
-
-
-
-
-
-%------------------
-
-Für LED ist A gegeben für Proben werden sie berechnet (Probe 3297s Fläche für die anderen) 
--> W kann gerechnet werden
-W(V) Graph, Tabelle
-LED, Proben
-
-Grün komisch-was war erwartet? was ist erfüllt?
+Die Dotierungskonzentration $N_\mathrm{diff}$ und $W(V)$ haben eine inverse Beziehung\ref{img:NW_kom},\ref{img:NW_3297},\ref{img:NW_2396},\ref{img:NW_3204}, die durch die Messungen bestätigt wurde. Diese Beziehung ist konsistent mit den theoretischen Erwartungen, da eine höhere Dotierung typischerweise zu einer schmaleren Raumladungszone führt, was durch die Poisson-Gleichung gestützt wird. 
 
