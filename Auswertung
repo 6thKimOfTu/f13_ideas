@@ -1,3 +1,5 @@
+\subsection{CV-Messungen}
+
 Der Strom fließt nun in der Sperrrichtung der Diode durch, somit spielt die Diode die Rolle des Kondensators. Zur Untersuchung der CV-Messungen soll die Kontaktfläche der untersuchten Dioden bestimmt werden, weil die Fläche der Raumladungszone eine wichtige Rolle bei der Untersuchung der Kapazität spielt \ref{eq:C}. In diesem Versuch wurde die Kontaktfläche der LEDs außer von der weißen LED gegeben (vgl. Abschnitt \ref{Literaturwerte} auf der Seite \pageref{Literaturwerte}). 
 
 %Die weiße LED wird später separat betrachtet.
@@ -5,6 +7,43 @@ Der Strom fließt nun in der Sperrrichtung der Diode durch, somit spielt die Dio
 Für die Proben B3297, B2396 und B3204A wurden ihre Kontaktfläche durch mithilfe eines Lichtmikroskops aufgenommene Bilder (vgl. Abb. \ref{img:Kontaktfläche}) bestimmt. Zunächst werden die Breite und Höhe der inneren Kontaktfläche (rote Fläche) und der mittleren Kontaktfläche (markiert mit einer schwarzen Linie) gemessen. So kann die Abweichung der Kontaktfläche durch Subtraktion der beiden Flächen ermittelt werden.
 Die ermittelten Werte der Kontaktfläche sind in der Tab. \ref{tab:Kontaktflächen} auf die Seite \pageref{tab:Kontaktflächen} zu sehen. 
 
+
+
+\begin{figure}[ht]
+    \centering
+\subfloat[Diode A]{{\includegraphics[width=0.46\textwidth ]{image/Bild_4_aufgabe/A_gross.png}}}
+\hspace{0.05\textwidth}
+\subfloat[Diode B]{{\includegraphics[width=0.46\textwidth ]{image/Bild_4_aufgabe/B_mittel.png}}}\\
+\vspace{0.5cm}
+\subfloat[Diode C]{{\includegraphics[width=0.46\textwidth ]{image/Bild_4_aufgabe/C_klein.png}}}
+\hspace{0.05\textwidth}
+\subfloat[Diode L]{{\includegraphics[width=0.46\textwidth ]{image/Bild_4_aufgabe/L.png}}}
+\caption[Die mithilfe des Lichtmikroskops aufgenommenen Bilder der Dioden mit verschiedenen Formen]{Zur Bestimmung der unterschiedlichen Kontaktfläche werden die Bilder der nicht verkapselten Diode B3297 mithilfe des Lichtmikroskops aufgenommen. Die Breite bzw. Höhe der Kontaktfläche wird mittels eines Programms gemessen. Um die Abweichung zu berücksichtigen, wird sowohl die innerste (rote) als auch die mittlere Kontaktfläche (markiert mit einer schwarzen Linie) gemessen.
+Alle dargestellten Dioden wurden auf demselben Substrat, jedoch jeweils in unterschiedlicher Form, hergestellt.}
+\label{img:Kontaktfläche}
+\end{figure}
+
+
+% 뭐 구해야하는 지 확인!!
+% Raumladungszonebreite? Donator--Konzentration? Dotierprofil? noch etwas? built--in Potential
+
+
+\begin{table}[ht]
+    \centering
+    \caption[Kontaktflächen B3297]{Die Kontaktflächen der verschiedenen Formen der Diode B3297 werden mittels eines Lichtmikroskops gemessen. Die Abweichung der Kontaktfläche wird durch die Differenz der beiden Flächen, der inneren und der mittleren, ermittelt (vgl. Abb. \ref{img:Kontaktfläche}). 
+    Angenommen, dass die Kontaktflächen der anderen Proben, nämlich B2396 und B3204A, identisch mit der von B3297 sind.}
+    \label{tab:Kontaktflächen}
+\begin{tabular}{cc}
+\toprule
+Form der Probe & Kontaktfläche ($\upmu \mathrm{m}^2$) \\
+\midrule
+A & $40320.64 \pm 4301.70$ \\
+B & $22788.92 \pm 3416.21$ \\
+C & $10418.28 \pm 2143.64$ \\
+L & $92031.64 \pm 7196.10$ \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderungen in der Breite der Raumladungszone $W$ in Abhängigkeit von der angelegten Spannung $V$. Die Abbildungen \ref{img:w_kom}, \ref{img:w_3297}, \ref{img:w_2396}, \ref{img:w_3204} zeigen, dass $W$ tatsächlich abnimmt, wenn die Spannung zur null sich nähert. Dieses Verhalten entspricht die Theorie, dass die Raumladungszone sich mit steigender Sperrspannung ausdehnt.
 
@@ -58,7 +97,7 @@ Die konstante Verteilung der Donatoren $N_\mathrm{D}$ wird durch die Analyse der
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3297_ND.pdf}
-    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die Probe B3297]{Das Diagramm der $1/C^2(V)$-Kurven für vier verschiedene LED-Proben: Rot, Orange, Grün und Weiß. Die lineare Anpassung ermöglicht die Berechnung des eingebauten Potentials und der Dotierungskonzentration. Auffällig ist die signifikant höhere Steigung bei der grünen LED, was auf eine niedrigere Dotierungskonzentration hinweist.}
+    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die Probe B3297]
     \label{img:CV_3297}
 \end{figure}
 
@@ -104,4 +143,3 @@ Die Dotierungskonzentrationen $N_\mathrm{diff}$ wurde mithilfe der Differentialq
 
 
 Die Dotierungskonzentration $N_\mathrm{diff}$ und $W(V)$ haben eine inverse Beziehung\ref{img:NW_kom},\ref{img:NW_3297},\ref{img:NW_2396},\ref{img:NW_3204}, die durch die Messungen bestätigt wurde. Diese Beziehung ist konsistent mit den theoretischen Erwartungen, da eine höhere Dotierung typischerweise zu einer schmaleren Raumladungszone führt, was durch die Poisson-Gleichung gestützt wird. 
-

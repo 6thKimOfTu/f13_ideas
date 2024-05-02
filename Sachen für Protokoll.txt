@@ -12,8 +12,50 @@ Ergebnis beinhaltet die Auswertung und Diskussion
 Zusammenfassung (wesentliche, nur von Ergebnissen)
 Keine Messblätter scannen
 
-Permittivität GaN 8.9
-https://www.iue.tuwien.ac.at/phd/vitanov/node53.html
 
-GaAs 13.1
-https://www.iue.tuwien.ac.at/phd/palankovski/node32.html
+
+
+% Abstr
+In der CV--Messung werden Raumladungszonebreite, Dotierungskonzentration des Donators $N_\mathrm{D}$ mit der mittlere Ängerungsrate, built--in--Potential und das Dotierprofil Die Dotierungskonzentration $N_\mathrm{diff}(W)$ mittels Differentialquotienten der unterschiedlichen Dioden ermittelt. 
+
+%zsmf
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_2396_ND.pdf}
+    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die Probe B2396]
+    \label{img:CV_2396}
+\end{figure}
+ 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3204_ND.pdf}
+    \caption[Abhängigkeit der $1/C^2$ von der angelegten Spannung $V$ für die Probe B3204]
+    \label{img:CV_3204}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/NW_3297.pdf}
+    \caption[Abhängigkeit der Dotierungskonzentration mit der Differentialquotienten $N_\mathrm{diff}$ als Funktion der Breite der Raumladungszone $W$ für Probe B3297]
+    \label{img:NW_3297}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/NW_2396.pdf}
+    \caption[Abhängigkeit der Dotierungskonzentration mit der Differentialquotienten $N_\mathrm{diff}$ als Funktion der Breite der Raumladungszone $W$ für Probe B2396]
+    \label{img:NW_2396}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/NW_3204.pdf}
+    \caption[Abhängigkeit der Dotierungskonzentration mit der Differentialquotienten $N_\mathrm{diff}$ als Funktion der Breite der Raumladungszone $W$ für Probe B3204]
+    \label{img:NW_3204}
+\end{figure}
+
+
+Zum Schluss wird die Kapazität der verschiedenen Dioden mithilfe der CV--Messung untersucht. Mit der Fläche berechnete Breite der Raumladungszone $W$ variiert sich mit der angelegten Sperrspannung, wobei $W$ abnimmt, wenn die Spannung zur Null hin abnimmt. Diese Beobachtung entspricht der theoretischen Erwartung, dass die Raumladungszone sich mit steigender Sperrspannung ausdehnt. $1/C^2(V)$-Kurven haben die lineare Verhalten gezeigt, womit die Dotierungskonzentration $N_\mathrm{D}$ sich mithilfe der Fit berechnen lässt. Die Analyse der Dotierprofil mittels Differentialquotienten von $N_\mathrm{diff}$ offenbarte, dass die Dotierungskonzentration über die Proben hinweg nicht konstant ist.
+Durchgängig zeigte die grüne LED signifikante abweichende Ergebnisse, wodurch man die Defekt der LED schätzen kann, insgesamt haben jedoch die Analyse die theoretische Erwartungen erfüllt.
+
+
