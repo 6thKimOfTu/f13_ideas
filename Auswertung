@@ -5,17 +5,37 @@ Der Strom fließt nun in der Sperrrichtung der Diode durch, somit spielt die Dio
 Für die Proben B3297, B2396 und B3204A wurden ihre Kontaktfläche durch mithilfe eines Lichtmikroskops aufgenommene Bilder (vgl. Abb. \ref{img:Kontaktfläche}) bestimmt. Zunächst werden die Breite und Höhe der inneren Kontaktfläche (rote Fläche) und der mittleren Kontaktfläche (markiert mit einer schwarzen Linie) gemessen. So kann die Abweichung der Kontaktfläche durch Subtraktion der beiden Flächen ermittelt werden.
 Die ermittelten Werte der Kontaktfläche sind in der Tab. \ref{tab:Kontaktflächen} auf die Seite \pageref{tab:Kontaktflächen} zu sehen. 
 
-Mit der Formel \ref{eq:W} können die Werte der Breite der Raumladungszone $W$ nach der Variierung der Spannung beobachtet werden. Die Abbildungen \ref{img:w_kom} von der kommerziellen LEDs, \ref{img:w_3297} von der Probe B3297, \ref{img:w_2396} von der Probe B2396, \ref{img:w_3204} von der Probe 3204 zeigen das Verhältnis von der Breite der Raumladungszone $W$ zur Erniedrigung der angeschlossenen Spannung $V$ tatsächlich sich verkleinert. 
 
-\label{img:w_kom}
-\label{img:w_3297}
-\label{img:w_3297}
-\label{img:w_2396}
-\label{img:w_3204}
+Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderungen in der Breite der Raumladungszone $W$ in Abhängigkeit von der angelegten Spannung $V$. Die Abbildungen \ref{img:w_kom}, \ref{img:w_3297}, \ref{img:w_2396}, \ref{img:w_3204} illustrieren, dass $W$ tatsächlich abnimmt, wenn die Spannung zur null sich nähert. Dieses Verhalten entspricht die Theorie, dass die Raumladungszone sich mit steigender Sperrspannung ausdehnt.
 
-Die bereits gekapselte kommerzielle Probe in der Abbildung \ref{img:w_kom} zeigen, dass die Werte der grüne LED drei bis vierfache Werte von der orangen und roten LED besitzen. Wie in der IV-Messung schon schlusfolgerte, wird die grüne LED als Defekt angesehen. 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_kom_LED_ND.pdf}
+    \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die kommerzielle LEDs]{Das Diagramm der Breite der Raumladungszone $W$ in Abhängigkeit der Spannung. Die Breite der Raumladungszone $W$ ist mit der Kapazität $C$ berechnet worden. Die Raumladungszone verkleinert sich mit abnehmender Sperrspannung, was typisch für pn-Übergänge ist.}
+    \label{img:w_kom}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3297_ND.pdf}
+    \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B3297]
+    \label{img:w_3297}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_2396_ND.pdf}
+    \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B2396]
+    \label{img:w_2396}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image/F13-CV/CV_3204_ND.pdf}
+    \caption[Variation der Breite der Raumladungszone $W$ mit der angelegten Spannung $V$ für die Probe B3204A]
+    \label{img:w_3204}
+\end{figure}
 
--sie besitzen ca. 30 fach größere Werte als nicht verkapselten LEDs. 
+Die in Abbildung \ref{img:w_kom} dargestellten Daten der verkapselten kommerziellen LEDs zeigen, dass die Breite der Raumladungszone $W$ der grünen LED drei- bis viermal größer ist als die der orangen und roten LEDs. Diese deutliche Abweichung zeigt, dass die grüne LED möglicherweise defekt ist, wie bereits in der Analyse der IV-Kennlinien hingewiesen wurde. 
+
+Zudem weisen die verkapselten LEDs Werte auf, die etwa dreißigmal größer sind als die der nicht verkapselten LEDs, wobei da die kommerzielle LEDs auch viel größere Fläche besitzt, kann man hier die Abhängigkeit der Fläche und unterschiedliche Konstruktionsart sehen. Nur die Fläche zu beobachten kann mit dem Vergleich der nicht verkapselten Proben möglich. 
 
 
 
