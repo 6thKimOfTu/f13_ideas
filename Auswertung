@@ -6,7 +6,7 @@ Für die Proben B3297, B2396 und B3204A wurden ihre Kontaktfläche durch mithilf
 Die ermittelten Werte der Kontaktfläche sind in der Tab. \ref{tab:Kontaktflächen} auf die Seite \pageref{tab:Kontaktflächen} zu sehen. 
 
 
-Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderungen in der Breite der Raumladungszone $W$ in Abhängigkeit von der angelegten Spannung $V$. Die Abbildungen \ref{img:w_kom}, \ref{img:w_3297}, \ref{img:w_2396}, \ref{img:w_3204} illustrieren, dass $W$ tatsächlich abnimmt, wenn die Spannung zur null sich nähert. Dieses Verhalten entspricht die Theorie, dass die Raumladungszone sich mit steigender Sperrspannung ausdehnt.
+Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderungen in der Breite der Raumladungszone $W$ in Abhängigkeit von der angelegten Spannung $V$. Die Abbildungen \ref{img:w_kom}, \ref{img:w_3297}, \ref{img:w_2396}, \ref{img:w_3204} zeigen, dass $W$ tatsächlich abnimmt, wenn die Spannung zur null sich nähert. Dieses Verhalten entspricht die Theorie, dass die Raumladungszone sich mit steigender Sperrspannung ausdehnt.
 
 \begin{figure}[ht]
     \centering
@@ -35,18 +35,19 @@ Die Anwendung der Formel \ref{eq:W} ermöglicht die Beobachtung der Veränderung
 
 Die in Abbildung \ref{img:w_kom} dargestellten Daten der verkapselten kommerziellen LEDs zeigen, dass die Breite der Raumladungszone $W$ der grünen LED drei- bis viermal größer ist als die der orangen und roten LEDs. Diese deutliche Abweichung zeigt, dass die grüne LED möglicherweise defekt ist, wie bereits in der Analyse der IV-Kennlinien hingewiesen wurde. 
 
-Zudem weisen die verkapselten LEDs Werte auf, die etwa dreißigmal größer sind als die der nicht verkapselten LEDs, wobei da die kommerzielle LEDs auch viel größere Fläche besitzt, kann man hier die Abhängigkeit der Fläche und unterschiedliche Konstruktionsart sehen. Nur die Fläche zu beobachten kann mit dem Vergleich der nicht verkapselten Proben möglich. 
+Die Untersuchung der verkapselten und nicht verkapselten LED-Proben zeigt deutliche Unterschiede in den gemessenen Werten der Raumladungszone. Die verkapselten kommerziellen LEDs weisen Werte auf, die etwa dreißigmal größer sind als die der nicht verkapselten LEDs. Diese signifikante Differenz lässt sich teilweise durch die deutlich größere Fläche der verkapselten LEDs erklären.
 
+Darüber hinaus verdeutlicht der direkte Vergleich zwischen den nicht verkapselten Proben die Möglichkeit, allein durch Beobachtung der Fläche zu differenzieren. Diese Beobachtungen legen nahe, dass neben der Flächengröße auch die unterschiedliche Bauweise der verkapselten LEDs einen erheblichen Einfluss auf die elektrischen Eigenschaften hat. Die Verkapselung selbst könnte zusätzliche physikalische oder chemische Eigenschaften einführen, die die elektrischen Messungen beeinflussen.
+
+Die Analyse der Raumladungszonenbreite $W$ in den Abbildungen \ref{img:w_3297}, \ref{img:w_2396}, \ref{img:w_3204} offenbart eine klare Abhängigkeit von der Kontaktflächengröße der untersuchten Proben. Insbesondere zeigen die Proben mit der größten Kontaktfläche (L) durchgehend größere Werte, während die Proben mit der kleinsten Fläche (C) deutlich kleinere Werte aufweisen. Dies deutet auf einen direkten Zusammenhang zwischen der Flächengröße und der gemessenen Breite der Raumladungszone hin.
+
+Bei den Proben A und B, die mittlere Flächengrößen aufweisen, sind die Unterschiede weniger ausgeprägt. Bei Probe \ref{img:w_3297} sind die Werte für A geringfügig kleiner als für B, bei \ref{img:w_2396} sind sie nahezu identisch, und in \ref{img:w_3204} sind die Werte für A größer als für B. Diese geringen Abweichungen zwischen den Proben A und B könnten auf Herstellungsprozess oder auf beschädigte Qualität der Probenoberfläche (wie Kratzer) liegen. Solche Oberflächenunregelmäßigkeiten könnten die Genauigkeit der Messungen beeinträchtigen und erklären, warum trotz größerer Fläche die erwarteten Werte nicht immer konsistent höher ausfallen.
 
 
 %------------------
-Wenn $N_\mathrm{D}$ konstant aufgeteilt ist , mittl. Änderungsrate von $1/C^2(V)$ reichen vollkommen aus\ref{eq:ND}, $\Delta N_\mathrm{D}$ wurden mit der Fitfunktion und die gemessene Abweichungen bestimmt.
 
-% hier sieht man den Graph mit Rot, Oragne, Weiß und Grüne LED, in der Reihenfolge haben die Größere $1/C^2(V)$ Werte, wobei Grüne hat doppel zu große Werte. Wie kann man das Physikalisch beurteilen?
-
-
-
-Die Daten von weiß erkennt man da ihre Linie nicht so gerade ist, sondern schon richtig abweicht von der fit, bei -5 V bis 3 ist die Kurve dominant. Weil die weiße LED eigentlich blaue LED ist, ist die grüne LED Werte komisch
+Die konstante Verteilung der Donatoren $N_\mathrm{D}$ wird durch die Analyse der mittleren Änderungsrate von $1/C^2(V)$, beschrieben in der Formel \ref{eq:ND}, bestätigt. Die Abweichungen der $\Delta N_\mathrm{D}$-Werte wurden durch eine Fitfunktion $1/C^2(V)= a\cdot V+b$ bestimmt. Mit dieser Parameter $a$ und $b$ lassen die built-in-Potentiale $V_\mathrm{bi}=\frac{-b}{a}$ und Dotierungskonzentration $N_D=\frac{-2}{A^2e\epsilon a}$ berechnen. Da die weiße LED keine Flächeinformation hat, wurde hier nicht weiteruntersucht worden.
+Die rote, orange und grüne LED weisne aufeinanderfolgend größere Werte auf, während die grüne LED anomal hohe Werte zeigt\ref{tab:NVbi}. 
 
 
 \begin{tabular}{lll}
@@ -75,12 +76,11 @@ Die Daten von weiß erkennt man da ihre Linie nicht so gerade ist, sondern schon
     \bottomrule
 \end{tabular}
 
-\label{img:CV_kom}
-\label{img:CV_3297}
-\label{img:CV_2396}
-\label{img:CV_3204}
 
-W gl. lv werte herstellen. 
+
+
+
+
 %------------------
 In der Abbildungen werden 
 
