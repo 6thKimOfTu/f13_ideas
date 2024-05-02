@@ -1,5 +1,76 @@
-In der Sperrrichtung nun anschließen-CV Messung
-Kapazität wird gemessen
+Der Strom fließt nun in der Sperrrichtung der Diode durch, somit spielt die Diode die Rolle des Kondensators. Zur Untersuchung der CV-Messungen soll die Kontaktfläche der untersuchten Dioden bestimmt werden, weil die Fläche der Raumladungszone eine wichtige Rolle bei der Untersuchung der Kapazität spielt \ref{eq:C}. In diesem Versuch wurde die Kontaktfläche der LEDs außer von der weißen LED gegeben (vgl. Abschnitt \ref{Literaturwerte} auf der Seite \pageref{Literaturwerte}). 
+
+%Die weiße LED wird später separat betrachtet.
+
+Für die Proben B3297, B2396 und B3204A wurden ihre Kontaktfläche durch mithilfe eines Lichtmikroskops aufgenommene Bilder (vgl. Abb. \ref{img:Kontaktfläche}) bestimmt. Zunächst werden die Breite und Höhe der inneren Kontaktfläche (rote Fläche) und der mittleren Kontaktfläche (markiert mit einer schwarzen Linie) gemessen. So kann die Abweichung der Kontaktfläche durch Subtraktion der beiden Flächen ermittelt werden.
+Die ermittelten Werte der Kontaktfläche sind in der Tab. \ref{tab:Kontaktflächen} auf die Seite \pageref{tab:Kontaktflächen} zu sehen. 
+
+Mit der Formel \ref{eq:W} können die Werte der Breite der Raumladungszone $W$ nach der Variierung der Spannung beobachtet werden. Die Abbildungen \ref{img:w_kom} von der kommerziellen LEDs, \ref{img:w_3297} von der Probe B3297, \ref{img:w_2396} von der Probe B2396, \ref{img:w_3204} von der Probe 3204 zeigen das Verhältnis von der Breite der Raumladungszone $W$ zur Erniedrigung der angeschlossenen Spannung $V$ tatsächlich sich verkleinert. 
+
+\label{img:w_kom}
+\label{img:w_3297}
+\label{img:w_3297}
+\label{img:w_2396}
+\label{img:w_3204}
+
+Die bereits gekapselte kommerzielle Probe in der Abbildung \ref{img:w_kom} zeigen, dass die Werte der grüne LED drei bis vierfache Werte von der orangen und roten LED besitzen. Wie in der IV-Messung schon schlusfolgerte, wird die grüne LED als Defekt angesehen. 
+
+-sie besitzen ca. 30 fach größere Werte als nicht verkapselten LEDs. 
+
+
+
+%------------------
+Wenn $N_\mathrm{D}$ konstant aufgeteilt ist , mittl. Änderungsrate von $1/C^2(V)$ reichen vollkommen aus\ref{eq:ND}, $\Delta N_\mathrm{D}$ wurden mit der Fitfunktion und die gemessene Abweichungen bestimmt.
+
+% hier sieht man den Graph mit Rot, Oragne, Weiß und Grüne LED, in der Reihenfolge haben die Größere $1/C^2(V)$ Werte, wobei Grüne hat doppel zu große Werte. Wie kann man das Physikalisch beurteilen?
+
+
+
+Die Daten von weiß erkennt man da ihre Linie nicht so gerade ist, sondern schon richtig abweicht von der fit, bei -5 V bis 3 ist die Kurve dominant. Weil die weiße LED eigentlich blaue LED ist, ist die grüne LED Werte komisch
+
+
+\begin{tabular}{lll}
+    \label{tab:NVbi}
+    \toprule
+         Probe &        $V_bi$ (V) &                $N$ (m^-3) \\
+    \midrule
+       LED Rot & 2.49 \pm 0.03 & (1119 \pm 18)e+18 \\
+    LED Orange & 2.402 \pm 0.019 & (517  \pm 6)e+18 \\
+      LED Grün & 5.27 \pm 0.07 & (76.3  \pm 1.7)e+18 \\
+      \hline
+      3297 A & 2.339 \pm 0.004 & (11.7 \pm 1.5)e+23 \\
+      3297 B & 2.432 \pm 0.005 & (11 \pm 2)e+23 \\
+      3297 C & 2.454 \pm 0.005 & (16 \pm 4)e+23 \\
+      3297 L & 2.452 \pm 0.004 & (8.6 \pm 0.8)e+23 \\
+      \hline
+    2396 A & 3.8034 \pm 0.0021 & (6.4 \pm 0.9)e+23 \\
+    2396 B & 3.9891 \pm 0.0027 & (6.9 \pm 1.2)e+23 \\
+    2396 C & 3.9464 \pm 0.0050 & (8 \pm 1.8)e+23 \\
+    2396 L & 3.837 \pm 0.001 & (6 \pm 0.6)e+23 \\
+    \hline
+    3204 A & 3.1494 \pm 0.0068 & (23 \pm 2.9)e+23 \\
+    3204 B & 3.1905 \pm 0.0076 & (23 \pm 5)e+23 \\
+    3204 C & 3.2536 \pm 0.0089 & (27 \pm 6)e+23 \\
+    3204 L & 3.1755 \pm 0.0071 & (21 \pm 1.9)e+23 \\
+    \bottomrule
+\end{tabular}
+
+\label{img:CV_kom}
+\label{img:CV_3297}
+\label{img:CV_2396}
+\label{img:CV_3204}
+
+W gl. lv werte herstellen. 
+%------------------
+In der Abbildungen werden 
+
+
+
+
+
+
+
+%------------------
 
 Für LED ist A gegeben für Proben werden sie berechnet (Probe 3297s Fläche für die anderen) 
 -> W kann gerechnet werden
